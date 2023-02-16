@@ -1,6 +1,6 @@
 package queue
 
 type Queue interface {
-	Publish(any) error
+	Produce(any) error
 	Consume() (any, error)
 }
